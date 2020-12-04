@@ -12,4 +12,4 @@
 
 This is my updated portfolio!
 
-![screenshot]()
+![screenshot](images/Screenshot 2020-12-04 110358.png)
