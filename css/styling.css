@@ -1,0 +1,77 @@
+body, html {
+    justify-content: center;
+    background-image: url("../images/image3A307468_Glitch2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.contact{
+ background-color: rgb(160, 160, 160); 
+ padding: 6rem;
+ box-shadow: 2px 2px 5px #000000;
+ border-radius:60px;
+ text-align: left;
+ font-size: 1.5rem;
+ margin: 10%;
+ margin-top:10%;
+}
+
+
+
+.email{
+    background: white;
+    padding: 2% 1%;
+    color: black;
+}
+
+.card{
+    background-color: rgb(98, 253, 253);
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.navbar{
+    padding: .5rem;
+}
+
+.jumbotron{
+    background-image: url("../images/image3A311343_mirror3-01_chroma3.jpg");
+    color: cornsilk;
+}
+
+.jmbtron{
+    background: red;
+}
+
+h2{
+    background: white;
+    text-align: center;
+    justify-content: center;
+    padding: 1% 1%;
+    margin: 2rem;
+    color: rgb(0, 0, 0);
+    border: black solid .25rem;
+    border-radius: 40rem;
+}
+
+.figure{
+ padding: 2.5rem 2.5rem;
+ text-align: center;
+ 
+}
+
+.icons{
+   text-align: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.foot{
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 1;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url("../images/image3A311343_mirror3-01_chroma3.jpg");
+    color: rgb(255, 255, 255);
+}

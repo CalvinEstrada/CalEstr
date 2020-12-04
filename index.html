@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/290d6f03b6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/styling.css">
+  <title>Calvin Estrada's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#myWork">
+        <img src="./images/12A9C9E2-4A00-42EE-A1EB-B9D974EC2C57.png" width="100" height="100"
+          class=" img d-inline-block align-top" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#aboutMe">About Me<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#myWork">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactMe">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="aboutMe">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-1">About Me</h1>
+        <p class="lead">My name is Calvin Estrada and I'm a student in UT Austin's Coding Bootcamp. I currently live in San Antonio, Texas and I spend my time designing and creating new projects, as well as looking for ways to improve on past projects. Very eager to learn more about the process of video game development and Cyber Security. I'm always looking for new things to learn and challenge myself with. </p>
+        <h3 class="icons">My Links:
+          <p><a href="https://www.linkedin.com/in/calvin-estr"><i class="fab fa-linkedin"> Linkedin</i></a> </p>
+          <p><a href="https://github.com/CalvinEstrada"><i class="fab fa-github"> Github Profile</i></a></p>
+          <p><a href="https://my.indeed.com/p/calvine-7969xon"><i class="fas fa-exclamation"> My Resume</i></a></p>
+          </h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="myWork">
+    <h2>
+      My work
+      <p>Day Planner: Schedule out your days in style</p>
+      <p>Trivia: Have fun with a quick round of trivia, made using javascript!</p>
+      <p>Weather DashBoard: Make sure your drive to work is rain free with this quick and useful site! </p>
+      <p>OnStage: A group project to get you the lastest info on your favorite bands with the wonderful Joey Sisk, Lexie Crawford, and Sergio Almazan</p>
+    </h2>
+    
+    
+    <figure class="figure">
+      <img src="./images/fairy-tale-1180921_1280.png" style="width: 18rem;" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption"><a href="https://calvinestrada.github.io/Day-Planner/" class="btn btn-dark">Day Planner</a></figcaption>
+    </figure>
+    <figure class="figure">
+      <img src="./images/D87D7700-BB2E-4C4B-B2F7-4934B42575AB.png" style="width: 18rem;" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption"> <a href="https://calvinestrada.github.io/Fun-Trivia/" class="btn btn-dark">Trivia</a></figcaption>
+    </figure>
+    <figure class="figure">
+      <img src="./images/lightning-924853_1920.jpg" style="width: 18rem;" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption"><a href="https://calvinestrada.github.io/Weather-DashBoard/" class="btn btn-dark">Weather DashBoard</a></figcaption>
+    </figure>
+    <figure class="figure">
+      <img src="./images/onstageRed.gif" style="width: 18rem;" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption"><a href="https://joey-sisk.github.io/OnStage/" class="btn btn-dark">OnStage</a></figcaption>
+    </figure>
+   
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+  <section id="contactMe">
+    <form class="contact" action="https://formspree.io/f/mrgoadjp" method="POST">
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="e-mail">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-dark">Send</button>
+
+    </form>
+  </section>
+
+  
+
+
+
+  <footer class="foot bg-light">
+    <p> Copyright &copy; Calvin Estrada 2020</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="./javascript/port.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
