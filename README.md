@@ -14,6 +14,6 @@ This is my updated portfolio!
 
 ![screenshot](https://raw.githubusercontent.com/CalvinEstrada/updated-portfolio/Master/images/Screenshot%202020-12-04%20110358.png)
 
-![screenshot(https://raw.githubusercontent.com/CalvinEstrada/updated-portfolio/Master/images/Screenshot%202020-12-04%20110603.png)
+![screenshot](https://raw.githubusercontent.com/CalvinEstrada/updated-portfolio/Master/images/Screenshot%202020-12-04%20110603.png)
 
 ![screenshot](https://raw.githubusercontent.com/CalvinEstrada/updated-portfolio/Master/images/Screenshot%202020-12-04%20110635.png)
