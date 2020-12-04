@@ -12,4 +12,4 @@
 
 This is my updated portfolio!
 
-![screenshot] (https://github.com/CalvinEstrada/updated-portfolio/blob/Master/images/Screenshot%202020-12-04%20110603.png?raw=true)
+![screenshot](https://github.com/CalvinEstrada/Weather-DashBoard/blob/Master/Screenshot%202020-11-18%20203851.png)
