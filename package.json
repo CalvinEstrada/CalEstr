@@ -1,0 +1,22 @@
+{
+  "name": "more-updates",
+  "version": "2.0.0",
+  "description": "My New Updated portfolio",
+  "main": "?",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinEstrada/updated-portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Calvin Estrada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalvinEstrada/updated-portfolio/issues"
+  },
+  "homepage": "https://github.com/CalvinEstrada/updated-portfolio#readme"
+}

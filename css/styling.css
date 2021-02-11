@@ -1,8 +1,9 @@
 body, html {
     justify-content: center;
-    background-image: url("../images/image3A307468_Glitch2.jpg");
+    background-image: url("../images/generated_mirror70-01_chroma4\ \(1\).jpg");
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+   
 }
 
 .contact{
@@ -34,15 +35,17 @@ body, html {
 }
 
 .jumbotron{
-    background-image: url("../images/image3A311343_mirror3-01_chroma3.jpg");
-    color: cornsilk;
+    background-image:linear-gradient(purple, pink, white);
+    color: rgb(0, 0, 0);
+    font-weight:800;
+    text-align: center;
+    
 }
 
-.jmbtron{
-    background: red;
-}
+
 
 h2{
+    font-weight: 800;
     background: white;
     text-align: center;
     justify-content: center;
@@ -51,10 +54,11 @@ h2{
     color: rgb(0, 0, 0);
     border: black solid .25rem;
     border-radius: 40rem;
+    font-size: 20px;
 }
 
-.figure{
- padding: 2.5rem 2.5rem;
+figure{
+ padding: 3rem 3rem 3rem;
  text-align: center;
  
 }
@@ -62,7 +66,9 @@ h2{
 .icons{
    text-align: center;
     justify-content: space-between;
-    color: white;
+    color: rgb(0, 0, 0);
+    margin: 2rem 2rem 1;
+    font-weight: 500;
 }
 
 .foot{
@@ -72,6 +78,18 @@ h2{
     z-index: 1;
     font-size: larger;
     font-weight: bolder;
-    background-image: url("../images/image3A311343_mirror3-01_chroma3.jpg");
+    background-image: url("../images/image3A264355_mirror6_compress70.jpg");
     color: rgb(255, 255, 255);
+}
+
+.lead{
+    font-weight: 800;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 40px;
+    word-wrap: break-word;
+    border: black solid 4px;
+    flex-wrap: nowrap;
+    padding: 2rem 2rem;
+    margin: 1rem 1rem 0;
 }
